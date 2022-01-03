@@ -7,7 +7,7 @@ Self-taught frontend developer with a great comprehension of JavaScript, React.J
 * 📍 Minsk, Belarus
 * 📧 tkachukya@gmail.com
 * 💼 [LinkedIn](https://www.linkedin.com/in/yana-gurinovich-170a27101/ "LinkedIn")
-* 🖋️ TG  @Yana_Gurinovich
+* 🖋️ [Telegram](https://t.me/yana_gurinovich/ "Telegram")
 * 🏷️ Discord Yana_G#5658
  ***
 ### Notable projects 
@@ -15,9 +15,10 @@ https://github.com/gurinowicz/rssschool-cv
 ***
 ### My goal 
 Is to get as much knowledge as possible, the ability to write concise algorithms, to study well js for employment as a frontend developer in a company. 
+
 ***
 ### Education
-##### Belarussian State University 
+#### Belarussian State University 
 Bachelor of Geography and Tourism Management
 #### Custom Academy 
 Bachelor of customs
