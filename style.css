@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Noto Serif;
+     src: url("assets/fonts/Noto Serif.ttf");
+   }
+   *{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;     
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0f0f0f;
+    background: #fcfafa; 
+    box-shadow: 0 0 5px;
+    margin: 0 auto;
+    width: 60%;  
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.section, .section-contacts, .section-about, .section-projects,
+.section-education, .section-courses, .section-language{    
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    width: 100%;
+  }
+
+p{
+    width: 65%;
+    text-align: center;
+}
+.contact-list, .section-language-count{
+    width: 60%;
+}
+
+
+.round {
+    border-radius: 100px; 
+    border: 1px solid rgb(229, 233, 229); 
+    box-shadow: 0 0 0 1px rgb(226, 222, 226), 0 0 1px #333;
+       }
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+      }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+      }
+          
+.section-item a {
+    color: #ecc7c7;
+    text-decoration: none;  
+    transition: color 0.5s;
+      }
+.section-item a:hover {
+    color: #181616;
+      }
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ecc7c7;
+    width: 30%;
+    white-space: nowrap;
+  }   
+  
+  .link {
+    text-decoration: none;
+    color: #726b71;
+    transition: color 0.4s;
+  }
+  
+  .link:hover {
+    color: #726b71;
+  }
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 50%;
+  }
+  .footer-icons {
+    display: flex;
+    margin: 0 auto;
+    padding: 0.3rem;
+    height: 1rem;
+    justify-content: space-between;
+    align-items: center;   
+}
